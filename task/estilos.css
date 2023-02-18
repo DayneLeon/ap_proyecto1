@@ -7,47 +7,261 @@
 
 header {
     background-image: url("../assets/design2_image2.jpg");
+    background-size: cover;
     width: 100%;
-    height: 250px;
-}
-
-body {
-    background-color: rgb(168, 228, 209);
+    height: 350px;
 }
 
 h1 {
-    color: aliceblue;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 4rem;
+    margin-left: 20px;
+    padding-top: 10px;
 }
 
-.div {
+.subtitulo {
     background-color: black;
+    padding: 5px 0px 5px 0px;
+
 }
 
 .logo {
     position: absolute;
     margin-left: 1350px;
-    margin-top: 170px;
+    margin-top: 200px;
+    width: 140px;
 }
 
-h2 {
+h2,
+.titulo_localidad {
     color: white;
     display: block;
+    text-align: center;
     background-color: black;
 }
 
-.container {
-    width: 500px;
-    height: 300px;
+main {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 nav {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    padding-top: 13px;
+}
+
+.enlace_game {
+    padding-top: 3px;
 }
 
 nav a {
-    display: block;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 13px;
+    width: 110px;
+    height: 50px;
+    border-radius: 2rem;
+    text-decoration: none;
+    background-color: #0B013A;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover, button:hover {
+    background-color: #c4b107;
+}
+
+figure img {
+    margin-right: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 13px;
+    border: 3px solid #0B013A;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 section {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    padding: 20px 60px 0 60px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.politicas{
+    text-indent: 1.5em;
+}
+
+.li_principal {
+    margin-bottom: 10px;
+}
+
+ul {
+    text-indent: 2em;
+}
+
+.titulo_politicas {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    width: 50px;
+}
+
+section .proximos_eventos{
+    border: 2px solid black;
+}
+
+.proximos_eventos p,.proximos_eventos h3{ 
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    background-color: #eee067;
+}
+
+.proximos_eventos p {
+    margin-bottom: 20px;
+}
+
+.proximos_eventos h3,.mdhl_info h3{
+color: white;
+background-color: #0B013A;
+}
+.mdhl_info h3{
+    width: 600px;
+    height: 25px;
+text-align: center;}
+
+.mdhl_info p{
+    width: 600px;
+    height: auto;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.info_contacto{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 250px;
+    font-size: larger;
+    color: white;
+    background-color: #0B013A;
+    }
+
+    p a {
+        text-decoration: none;
+        color: white;
+    }
+
+.localidad {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid #0B013A;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+.mapas {
+    flex-direction: column;
+    border: 2px solid #0B013A;
+    background-color: #eee067;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+}
+
+iframe {
+    width: 200px;
+    height: 200PX;
+}
+
+div h4 {
+    color: #0B013A;
+}
+
+.titulo_localidad {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+article div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+
+form{
+    padding-top: 13px;
+    margin-left: 230px;
+    text-align: justify;
+    width: 600px;
+}
+
+form p{
+    font-weight: bold;
+}
+
+.permission_p{
+    font-weight: lighter;
+    width: 600px;
+    padding: 2px 10px 5px 10px;
+    background-color: #f8f4cc;
+}
+
+fieldset{
+    padding: 5px 6px 5px 7px;
+    border: 0px;
+    background-color: #f8f4cc;
+}
+
+input{
+    margin: 5px 5px 5px 5px;
+    border-radius: 2rem;
+}
+
+form h3 {
+    background-color: #f8f4cc;
+    padding: 5px 6px 2px 7px;
+}
+
+button{
+    border: 2px solid black;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    border-radius: 2rem;
+    text-decoration: none;
+    background-color: #0B013A;
+    color: white;
+    cursor: pointer;
 }
